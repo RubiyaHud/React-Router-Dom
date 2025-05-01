@@ -1,8 +1,9 @@
-<!-- Step 1: Open the Gitbash terminal in VS Code and Type the command below:
+<!-- Step 1: Open the Gitbash terminal to the React project directory in VS Code 
+then, Type the command below:
 
       npm install react-router-dom 
--->
-<!-- 2:  Go To main.jsx 
+---------------------------------------------------------------------->
+<!----------------- Step 2:  Go To main.jsx --------------------------
  import { BrowserRouter } from 'react-router-dom';
    
    <StrictMode>
@@ -10,8 +11,8 @@
       <App />
     </BrowserRouter>
   </StrictMode>
-  -->
-<!-- Step 3: Go to App.jsx 
+------------------------------------------------------------------->
+<!------------------- Step 3: Go to App.jsx ---------------------------
  
    import RootLayout from './components/layouts/RootLayout'
    import { Routes, Route } from 'react-router-dom'
@@ -23,11 +24,11 @@
         <Route path="about" element={<About />} /> 
       </Route>
     </Routes>
-  
-  -->
-<!-- 4: 
+
+  ------------------------------------------------------------------>
+<!------------------- Step 4: Go to RootLayout.jsx --------------------------- 
  import { Outlet } from 'react-router-dom'
-     Go to RootLayout -> 
+     
       <Header/>
         <Outlet/>
       <Footer/>
