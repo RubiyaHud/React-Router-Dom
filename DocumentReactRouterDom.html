@@ -39,4 +39,25 @@ then, Type the command below:
         <Outlet/>
       <Footer/>
     
-    -->
+   ------------------------------------------------------------------>
+<!------------------- Step 6: Go to Menu.jsx file --------------------------- 
+import { Link } from 'react-router-dom'
+<ul>
+        
+        <Link to={"/"}> <li>Home</li> </Link>
+        <Link to={"/About"}> <li>About</li> </Link>
+        <Link to={"/About"}> <li>Shop</li> </Link>
+        <Link to={"/"}> <li>Contacts</li> </Link>
+        <Link to={"/"}> <li>Journal</li> </Link>
+         
+    </ul>
+
+Here, <Link> is used instead of <a>.
+In react-router-dom, the <Link> component is used to navigate between routes in a React Single Page Application (SPA) without causing a full page reload.
+Why use <Link> instead of <a>?
+A regular <a href="/about"> would reload the entire page.
+<Link> updates the browser's URL without reloading and lets React handle the route change.
+Key Prop:
+to: This prop defines the target path.
+
+   ------------------------------------------------------------------>
