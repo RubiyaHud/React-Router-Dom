@@ -1,15 +1,15 @@
-<!-- Step 1: Create Organize the folder and files inside the src folder according to the image below:
+<!-- Step 1: Create RootLayout.jsx file inside the layouts folder, Also Organize the folder and files inside the src folder according to the image below:
 
 
 
 ---------------------------------------------------------------------->
 
-<!-- Step 1: Open the Gitbash terminal to the React project directory in VS Code 
+<!-- Step 2: Open the Gitbash terminal to the React project directory in VS Code 
 then, Type the command below:
 
       npm install react-router-dom 
 ---------------------------------------------------------------------->
-<!----------------- Step 2:  Go To main.jsx --------------------------
+<!----------------- Step 3:  Go To main.jsx --------------------------
  import { BrowserRouter } from 'react-router-dom';
    
    <StrictMode>
@@ -18,7 +18,7 @@ then, Type the command below:
     </BrowserRouter>
   </StrictMode>
 ------------------------------------------------------------------->
-<!------------------- Step 3: Go to App.jsx ---------------------------
+<!------------------- Step 4: Go to App.jsx ---------------------------
  
    import RootLayout from './components/layouts/RootLayout'
    import { Routes, Route } from 'react-router-dom'
@@ -32,7 +32,7 @@ then, Type the command below:
     </Routes>
 
   ------------------------------------------------------------------>
-<!------------------- Step 4: Go to RootLayout.jsx --------------------------- 
+<!------------------- Step 5: Go to RootLayout.jsx --------------------------- 
  import { Outlet } from 'react-router-dom'
      
       <Header/>
