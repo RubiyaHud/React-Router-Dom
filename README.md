@@ -10,7 +10,7 @@ So, in essence:
 **React Router DOM = React + Routing System for the Web DOM**
 
 ## Installation Steps:
-- Organize folders and files inside the `src` folder of a React project:
+- **Step 1:** Organize folders and files inside the `src` folder of a React project (illustrated below). Here, `RootLayout.jsx` file is created inside the layouts folder.
   ![ReactSrcDirStructure drawio](https://github.com/user-attachments/assets/8c66c699-cdfc-4bc9-820c-732172a45311)
 
 
