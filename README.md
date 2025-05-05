@@ -50,3 +50,20 @@ So, in essence:
   ```
   #### **Example:**
   ![image](https://github.com/user-attachments/assets/eccfc953-4790-4975-a937-1eb2506b591a)
+
+- **Step 5:**  Go To `RootLayout.jsx `. Add the codes given below:
+  
+  ```
+  import { Outlet } from 'react-router-dom'
+     
+      <Header/>
+        <Outlet/>
+      <Footer/>  
+  ```
+  #### **Example:**
+  ![image](https://github.com/user-attachments/assets/cc590e20-cf04-487c-bb71-44dde3d2465e)
+
+
+
+
+  
