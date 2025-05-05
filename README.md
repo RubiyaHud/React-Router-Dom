@@ -9,6 +9,8 @@ So, in essence:
 
 **React Router DOM = React + Routing System for the Web DOM**
 
-## Expanding the ESLint configuration
+## Installation Steps:
+- Organize folders and files inside the `src` folder of a React project:
+  ![ReactSrcDirStructure drawio](https://github.com/user-attachments/assets/8c66c699-cdfc-4bc9-820c-732172a45311)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
