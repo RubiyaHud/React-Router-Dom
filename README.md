@@ -12,6 +12,7 @@ So, in essence:
 ## Installation Steps:
 - **Step 1:** Organize folders and files inside the `src` folder of a React project (illustrated below). Here, `RootLayout.jsx` file is created inside the layouts folder.
   ![ReactSrcDirStructure drawio](https://github.com/user-attachments/assets/8c66c699-cdfc-4bc9-820c-732172a45311)
+  
 - **Step 2:** Open the React project in VS Code, then open the Gitbash terminal in it. Type the command given below:
   
   ```
@@ -62,6 +63,18 @@ So, in essence:
   ```
   #### **Example:**
   ![image](https://github.com/user-attachments/assets/cc590e20-cf04-487c-bb71-44dde3d2465e)
+
+- **Step 6:**  Go To `Menu.jsx `. Add the codes given below:
+  
+  ```
+  import { Link } from 'react-router-dom'
+  <ul>
+    <Link to={"/"}> <li>Home</li> </Link>
+    <Link to={"/About"}> <li>About</li> </Link>
+  </ul>
+  ```
+  #### **Example:**
+  ![image](https://github.com/user-attachments/assets/1f7d176d-a13a-410e-9a8b-332202c8825a)
 
 
 
