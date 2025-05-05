@@ -12,7 +12,7 @@ So, in essence:
 ## Installation Steps:
 - **Step 1:** Organize folders and files inside the `src` folder of a React project (illustrated below). Here, `RootLayout.jsx` file is created inside the layouts folder.
   ![ReactSrcDirStructure drawio](https://github.com/user-attachments/assets/8c66c699-cdfc-4bc9-820c-732172a45311)
-- Open the React project in VS Code, then open the Gitbash terminal in it. Type the command below:
+- **Step 2:** Open the React project in VS Code, then open the Gitbash terminal in it. Type the command given below:
   
   ```
   npm install react-router-dom
@@ -32,3 +32,21 @@ So, in essence:
   ```
   #### **Example:**
   ![image](https://github.com/user-attachments/assets/a090e581-1447-49d5-8859-19945aa231c6)
+  
+- **Step 4:**  Go To `App.jsx `. Add the codes given below:
+  
+  ```
+  import RootLayout from './components/layouts/RootLayout'
+   import { Routes, Route } from 'react-router-dom'
+
+
+    <Routes>
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Home />} />          
+        <Route path="about" element={<About />} /> 
+      </Route>
+    </Routes>
+  
+  ```
+  #### **Example:**
+  ![image](https://github.com/user-attachments/assets/eccfc953-4790-4975-a937-1eb2506b591a)
