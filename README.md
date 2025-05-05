@@ -18,5 +18,17 @@ So, in essence:
   npm install react-router-dom
   
   ```
-
-
+- **Step 3:**  Go To `main.jsx`. Add the codes given below:
+  
+  ```
+  import { BrowserRouter } from 'react-router-dom';
+   
+   <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
+  
+  ```
+  #### **Example:**
+  ![image](https://github.com/user-attachments/assets/a090e581-1447-49d5-8859-19945aa231c6)
