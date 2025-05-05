@@ -78,7 +78,7 @@ So, in essence:
 
   Here, `<Link>` is used instead of `<a>`.
   In `react-router-dom`, the `<Link>` component is used to navigate between `routes` in a **React Single Page Application (SPA)** without causing a full page reload.
-  ### Why use <Link> instead of <a>?
+  ### Why use `<Link>` instead of `<a>`?
   A regular `<a href="/about">` would reload the entire page.
   `<Link>` updates the browser's URL without reloading and lets `React` handle the route change.
   
