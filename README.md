@@ -84,7 +84,7 @@ So, in essence:
   
   **Key Prop:**
   
-  **to:** This prop defines the target path.
+  **to:** This `prop` defines the target path.
 
 
 
