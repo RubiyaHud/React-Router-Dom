@@ -1,5 +1,5 @@
 # React Router DOM
-The term React Router DOM can be broken down as follows:
+The term `React Router DOM` can be broken down as follows:
 
 - **React:** Refers to the React library.
 - **Router:** Refers to the routing system that enables navigation between views or pages.
