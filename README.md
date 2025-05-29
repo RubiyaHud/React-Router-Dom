@@ -39,9 +39,9 @@ So, in essence:
   
   ```
   import RootLayout from './components/layouts/RootLayout'
-   import { Routes, Route } from 'react-router-dom'
-
-
+  import { Routes, Route } from 'react-router-dom'
+  ```
+  ```
     <Routes>
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />          
