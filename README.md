@@ -23,7 +23,8 @@ So, in essence:
   
   ```
   import { BrowserRouter } from 'react-router-dom';
-   
+  ```
+  ```
    <StrictMode>
     <BrowserRouter>
       <App />
