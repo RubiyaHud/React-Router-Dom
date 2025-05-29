@@ -57,7 +57,8 @@ So, in essence:
   
   ```
   import { Outlet } from 'react-router-dom'
-     
+  ```
+  ```     
       <Header/>
         <Outlet/>
       <Footer/>  
