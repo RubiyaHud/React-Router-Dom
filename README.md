@@ -10,7 +10,9 @@ So, in essence:
 **React Router DOM = React + Routing System for the Web DOM**
 
 ## Installation Steps:
-- **Step 1:** Organize folders and files inside the `src` folder of a React project (illustrated below). Here, `RootLayout.jsx` file is created inside the layouts folder.
+- **Step 1:** Organize folders and files inside the `src` folder of a React project (illustrated below).
+     - Here, `RootLayout.jsx` file is created inside the `layouts` folder.
+     - Also, some other files are created in corresponding folders: `<Header/>`, `<Footer/>`, `<Home/>` and `<About/>`
   ![image](https://github.com/user-attachments/assets/09a8b2f6-c259-473c-85cf-ce04da4359e2)
   
 - **Step 2:** Open the React project in VS Code, then open the Gitbash terminal in it. Type the command given below:
