@@ -72,6 +72,9 @@ So, in essence:
   
   ```
   import { Link } from 'react-router-dom'
+  ```
+
+  ```
   <ul>
     <Link to={"/"}> <li>Home</li> </Link>
     <Link to={"/About"}> <li>About</li> </Link>
